@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+#quiz-box {
+  margin: auto;
+  width: 300px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.answer-btn {
+  background: #444;
+  color: white;
+}
+
+.answer-btn:hover {
+  background: #666;
+}
+
+#nextBtn {
+  background: #28a745;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
